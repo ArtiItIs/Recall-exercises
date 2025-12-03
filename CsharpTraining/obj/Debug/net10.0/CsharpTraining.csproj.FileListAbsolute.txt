@@ -1,0 +1,14 @@
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.AssemblyInfoInputs.cache
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.AssemblyInfo.cs
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.csproj.CoreCompileInputs.cache
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\bin\Debug\net10.0\CsharpTraining.exe
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\bin\Debug\net10.0\CsharpTraining.deps.json
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\bin\Debug\net10.0\CsharpTraining.runtimeconfig.json
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\bin\Debug\net10.0\CsharpTraining.dll
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\bin\Debug\net10.0\CsharpTraining.pdb
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.dll
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\refint\CsharpTraining.dll
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.pdb
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.genruntimeconfig.cache
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\ref\CsharpTraining.dll
