@@ -1,0 +1,10 @@
+# Rider / IntelliJ
+.idea/
+
+# Build folders
+bin/
+obj/
+
+# Other
+.vs/
+*.user
