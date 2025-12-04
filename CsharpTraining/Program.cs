@@ -23,6 +23,9 @@ class Program
         
         //basic statements (if, for, while, switch, AND/OR)
         //TODO foreach with arrays
-        Statements.BasicStatements();
+        //Statements.BasicStatements();
+        
+        //nested loops exercises!
+        NestedLoop.NestedLoops();
     }
 }
