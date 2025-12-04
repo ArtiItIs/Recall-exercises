@@ -19,6 +19,10 @@ class Program
         //============================================
         
         //String methods
-        StringModification.StringMethods();
+        //StringModification.StringMethods();
+        
+        //basic statements (if, for, while, switch, AND/OR)
+        //TODO foreach with arrays
+        Statements.BasicStatements();
     }
 }
