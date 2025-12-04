@@ -12,3 +12,4 @@ C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\r
 C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.pdb
 C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.genruntimeconfig.cache
 C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\ref\CsharpTraining.dll
+C:\Users\Anewi\RiderProjects\C_Sharp_Training\CsharpTraining\obj\Debug\net10.0\CsharpTraining.sourcelink.json

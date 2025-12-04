@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
 
-        //variable types, type convertion examples
+        //variable types, type conversion examples
         //BasicVariable.BasicVariables();
         //============================================
         
@@ -15,7 +15,10 @@ class Program
         //============================================
         
         //operators, math methods and random numbers (+Exercise)
-        MathOperator.MathOperators();
+        //MathOperator.MathOperators();
         //============================================
+        
+        //String methods
+        StringModification.StringMethods();
     }
 }
