@@ -116,5 +116,12 @@ public class Statements
             randomNumber = rnd.Next(1, 10);
             Console.Write(randomNumber);
         }
+        
+        //for each
+        int[] arrayNumbers = { 1, 2, 3, 4, 5 };
+        foreach (int number in arrayNumbers)
+        {
+            Console.WriteLine(number);
+        }
     }
 }

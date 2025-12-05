@@ -22,13 +22,16 @@ class Program
         //StringModification.StringMethods();
         
         //basic statements (if, for, while, switch, AND/OR)
-        //TODO foreach with arrays
         //Statements.BasicStatements();
         
         //nested loops exercises!
         //NestedLoop.NestedLoops();
         
+        //arrays
+        //TODO multidimensional arrays
+        ArrayExercise.ArraysExc();
+        
         //number guessing exercise game
-        NumberGuessing.NumbGuess();
+        //NumberGuessing.NumbGuess();
     }
 }

@@ -7,9 +7,9 @@ public class NumberGuessing
         Random rnd = new Random();
         
         Console.WriteLine("Welcome to number guessing game!");
-        int number = rnd.Next(1, 101);
         int min = 1;
         int max = 100;
+        int number = rnd.Next(min, max + 1);
         int guessCounter = 0;
         bool correctGuess = false;
         int guessedNumber;
