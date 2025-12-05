@@ -26,6 +26,9 @@ class Program
         //Statements.BasicStatements();
         
         //nested loops exercises!
-        NestedLoop.NestedLoops();
+        //NestedLoop.NestedLoops();
+        
+        //number guessing exercise game
+        NumberGuessing.NumbGuess();
     }
 }
