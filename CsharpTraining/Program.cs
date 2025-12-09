@@ -20,21 +20,27 @@ class Program
         
         //String methods
         //StringModification.StringMethods();
+        //============================================
         
         //basic statements (if, for, while, switch, AND/OR)
         //Statements.BasicStatements();
+        //============================================
         
         //nested loops exercises!
         //NestedLoop.NestedLoops();
+        //============================================
         
         //arrays
         //TODO multidimensional arrays
         ///ArrayExercise.ArraysExc();
+        //============================================
         
         //number guessing exercise game
         //NumberGuessing.NumbGuess();
+        //============================================
         
         //methods (with calculator exercise)
+        /*
         String methodName = "Adam";
         int methodAge = 24;
         BasicMethods.BasicMethod(methodName, methodAge);
@@ -45,10 +51,14 @@ class Program
         int animalAge = 4;
         double animalHeight = 45.5;
 
-        Console.WriteLine(BasicMethods.DescribeAnimal(animalType, animalName));
+        //Console.WriteLine(BasicMethods.DescribeAnimal(animalType, animalName));
         Console.WriteLine(BasicMethods.DescribeAnimal(animalType, animalName, animalAge));
         Console.WriteLine(BasicMethods.DescribeAnimal(animalType, animalHeight));
 
         Console.WriteLine(BasicMethods.ShoppingCart(11.9, 15.2, 11.2, 0.99) + " eur");
+        */
+        //============================================
+        
+        Exceptions.ExceptionExercise();
     }
 }
