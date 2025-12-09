@@ -123,5 +123,27 @@ public class Statements
         {
             Console.WriteLine(number);
         }
+        
+        //conditional '?'
+        //(condition) ? x : y -> is 'condition' ? true (x) or (:) false (y)
+        int requestedAge = 18;
+        String answer;
+
+        if (requestedAge >= 18)
+        {
+            answer = "You have to be an adult";
+        }
+        else
+        {
+            answer = "You don't have to be an adult";
+        }
+        Console.WriteLine(answer);
+        
+        //it's the same as:
+        answer = (requestedAge >= 18) ? "You have to be an adult" : "You don't have to be an adult";
+        Console.WriteLine(answer);
+        
+        //or even shorter
+        Console.WriteLine((requestedAge >= 18) ? "You have to be an adult" : "You don't have to be an adult");
     }
 }

@@ -59,6 +59,7 @@ class Program
         */
         //============================================
         
-        Exceptions.ExceptionExercise();
+        //simple exercise with exceptions
+        //Exceptions.ExceptionExercise();
     }
 }
