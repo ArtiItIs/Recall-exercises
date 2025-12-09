@@ -17,7 +17,7 @@ class Program
         //MathOperator.MathOperators();
         //============================================
         
-        //String methods
+        //String methods, string interpolation
         //StringModification.StringMethods();
         //============================================
         

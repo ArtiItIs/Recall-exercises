@@ -27,5 +27,13 @@ public class StringModification
         String firstName = fullName.Substring(0, 4);
         String lastName = fullName.Substring(5, 5);
         Console.WriteLine(firstName + " " + lastName);
+        
+        
+        //String interpolation
+        String carBrand = "Chevrolet";
+        String carModel = "Corvette";
+        double horsePower = 495.0;
+
+        Console.WriteLine($"This {carBrand} {carModel} is offering {horsePower} horse power!");
     }
 }
