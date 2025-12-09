@@ -64,9 +64,10 @@ class Program
         //class objects, constructors, static modifier
         
         //Person class
-        
+        /*
         Person person1 = new Person("Forest", 40);
         Person person2 = new Person("Barry", 28);
+        */
         
         //if there was no constructor then program will use empty one
         //then we can assign values to the object
@@ -77,13 +78,13 @@ class Program
         person2.personAge = 28;
         */
         
-        Person.Race();
-        
-        person1.Run();
-        person1.StopRunning();
+        //Person.Race();
+        //person1.Run();
+        //person1.StopRunning();
         
         
         //House class
+        /*
         House house1 = new House(48, 3, "Somewhere 20/2, Warsaw", 1, "white");
         House mansion = new House(400, 40, "In the middle of nowhere, ???", 3, "wooden");
 
@@ -91,5 +92,10 @@ class Program
         mansion.HouseEvaluation();
 
         Console.WriteLine("There are " + House.numberOfHouses + " houses on the list");
+        */
+        
+        //overloaded constructors
+        Computer computer = new Computer("RTX 3080", "i7-1500", 32, "Windows 11", "LG 4k");
+        Computer laptop = new Computer("RTX 3050ti", "i9-9000", 16, "Windows 11");
     }
 }
