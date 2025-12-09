@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpTraining")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ef1ade524b8d58f4beebe7077eaeac3e41af6c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb017bb88f2b7202c0a746b152d10e9b2cdc39e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpTraining")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpTraining")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

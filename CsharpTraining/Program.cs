@@ -10,7 +10,6 @@ class Program
         //============================================
         
         //user input
-        //TODO add exceptions for invalid input
         //WritingInput.WritingInputs();
         //============================================
         
