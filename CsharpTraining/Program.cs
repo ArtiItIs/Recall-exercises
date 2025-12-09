@@ -95,7 +95,19 @@ class Program
         */
         
         //overloaded constructors
-        Computer computer = new Computer("RTX 3080", "i7-1500", 32, "Windows 11", "LG 4k");
-        Computer laptop = new Computer("RTX 3050ti", "i9-9000", 16, "Windows 11");
+        //Computer computer = new Computer("RTX 3080", "i7-1500", 32, "Windows 11", "LG 4k");
+        //Computer laptop = new Computer("RTX 3050ti", "i9-9000", 16, "Windows 11");
+        
+        //inheritance
+        Dog dog = new Dog();
+        Bird bird = new Bird();
+        Snake snake = new Snake();
+
+        Console.WriteLine("I have " + dog.numberOfLegs  + " legs");
+        dog.Move();
+        Console.WriteLine("I have " + bird.numberOfLegs  + " legs");
+        bird.Move();
+        Console.WriteLine("I have " + snake.numberOfLegs  + " legs");
+        snake.Move();
     }
 }
