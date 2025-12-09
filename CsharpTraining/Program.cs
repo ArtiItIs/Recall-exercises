@@ -30,8 +30,7 @@ class Program
         //============================================
         
         //arrays
-        //TODO multidimensional arrays
-        ArrayExercise.ArraysExc();
+        //ArrayExercise.ArraysExc();
         //============================================
         
         //number guessing exercise game
@@ -61,5 +60,36 @@ class Program
         //simple exercise with exceptions
         //Exceptions.ExceptionExercise();
         //============================================
+        
+        //class objects, constructors, static modifier
+        
+        //Person class
+        
+        Person person1 = new Person("Forest", 40);
+        Person person2 = new Person("Barry", 28);
+        
+        //if there was no constructor then program will use empty one
+        //then we can assign values to the object
+        /* 
+        person1.personName = "Forest";
+        person1.personAge = 40;
+        person2.personName = "Barry";
+        person2.personAge = 28;
+        */
+        
+        Person.Race();
+        
+        person1.Run();
+        person1.StopRunning();
+        
+        
+        //House class
+        House house1 = new House(48, 3, "Somewhere 20/2, Warsaw", 1, "white");
+        House mansion = new House(400, 40, "In the middle of nowhere, ???", 3, "wooden");
+
+        house1.HouseEvaluation();
+        mansion.HouseEvaluation();
+
+        Console.WriteLine("There are " + House.numberOfHouses + " houses on the list");
     }
 }
