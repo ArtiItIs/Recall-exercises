@@ -31,7 +31,7 @@ class Program
         
         //arrays
         //TODO multidimensional arrays
-        ///ArrayExercise.ArraysExc();
+        ArrayExercise.ArraysExc();
         //============================================
         
         //number guessing exercise game
@@ -60,5 +60,6 @@ class Program
         
         //simple exercise with exceptions
         //Exceptions.ExceptionExercise();
+        //============================================
     }
 }
