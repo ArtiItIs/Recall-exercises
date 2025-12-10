@@ -4,8 +4,13 @@ public abstract class Animal
 {
     //public int numberOfLegs;
 
-    public void Move()
+    public abstract void Move();
+
+    /*
+    //if class is not abstract we can use 'virtual' with body:
+    public virtual void Move()
     {
         Console.WriteLine("Catch me!");
     }
+    */
 }

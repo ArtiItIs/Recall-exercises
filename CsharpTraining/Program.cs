@@ -112,9 +112,11 @@ class Program
         Console.WriteLine("I have " + snake.numberOfLegs  + " legs");
         snake.Move();
         */
+        //============================================
         
         //array of objects
 
+        /*
         Person[] classroom = new Person[5];
 
         Person person1 = new Person("Chris", 15);
@@ -139,5 +141,19 @@ class Program
         Person person6 = Person.Clone(person5);
 
         Console.WriteLine(person6.personName +  " is a clone!");
+        */
+        //============================================
+        
+        //overriding methods
+        
+        Dog dog2 = new Dog();
+        Bird bird2 = new Bird();
+        Snake snake2 = new Snake();
+        
+        dog2.Move();
+        bird2.Move();
+        snake2.Move();
+        
+        //============================================
     }
 }
