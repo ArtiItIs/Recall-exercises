@@ -225,6 +225,7 @@ class Program
         //============================================
         
         //list of objects
+        /*
         Person human1 = new Person("Mario", 45);
         Person human2 = new Person("Luigi", 40);
         Person human3 = new Person("Peach", 22);
@@ -240,5 +241,18 @@ class Program
         {
             Console.WriteLine(person);
         }
+        */
+        //============================================
+        
+        //getters/setters
+        
+        Criminal criminal1 = new Criminal(500);
+        Console.WriteLine(criminal1.Income);
+        criminal1.Income = 99999;
+        Console.WriteLine(criminal1.Income);
+        
+        //============================================
+        
+        
     }
 }
