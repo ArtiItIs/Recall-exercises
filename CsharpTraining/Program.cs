@@ -193,6 +193,7 @@ class Program
         //============================================
         
         //lists!!!
+        /*
         List<String> colours = new List<string>();
         
         colours.Add("red");
@@ -220,8 +221,24 @@ class Program
         colours.Add("yellow");
         Console.WriteLine("Last index of yellow is index " + colours.LastIndexOf("yellow"));
         Console.WriteLine(colours.Contains("red")); //returns bool after searching for asked colour (true/false)
+        */
+        //============================================
+        
+        //list of objects
+        Person human1 = new Person("Mario", 45);
+        Person human2 = new Person("Luigi", 40);
+        Person human3 = new Person("Peach", 22);
+        
+        List<Person> humans = new List<Person>();
+        
+        humans.Add(human1);
+        humans.Add(human2);
+        humans.Add(human3);
+        humans.Add(new Person("Waluigi", 40));
 
-        
-        
+        foreach (Person person in humans)
+        {
+            Console.WriteLine(person);
+        }
     }
 }
