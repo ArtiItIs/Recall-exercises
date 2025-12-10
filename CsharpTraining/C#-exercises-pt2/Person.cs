@@ -40,4 +40,9 @@ public class Person
     {
         return new  Person(person.personName, person.personAge);
     }
+
+    public override string ToString()
+    {
+        return "This is: " + personName + ", that is " + personAge + " years old";
+    }
 }

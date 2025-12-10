@@ -145,7 +145,7 @@ class Program
         //============================================
         
         //overriding methods
-        
+        /*
         Dog dog2 = new Dog();
         Bird bird2 = new Bird();
         Snake snake2 = new Snake();
@@ -153,7 +153,13 @@ class Program
         dog2.Move();
         bird2.Move();
         snake2.Move();
-        
+        */
         //============================================
+        
+        //ToString method override
+        Person person7 = new Person("Adrian", 30);
+
+        Console.WriteLine(person7.ToString());
+        Console.WriteLine(person7); //this will automatically call ToString method without having to call it
     }
 }
