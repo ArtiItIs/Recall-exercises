@@ -8,7 +8,7 @@ public class Criminal : IRobber
     {
         this.income = income;
     }
-
+    
     public int Income
     {
         get { return income; }
@@ -24,6 +24,9 @@ public class Criminal : IRobber
             }
         }
     }
+    
+    //if there is no logic required in creating get/set we can auto implement
+    //public int Income { get; set; }
     
     public void Rob()
     {

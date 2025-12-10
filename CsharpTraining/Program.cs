@@ -245,14 +245,20 @@ class Program
         //============================================
         
         //getters/setters
-        
+        /*
         Criminal criminal1 = new Criminal(500);
         Console.WriteLine(criminal1.Income);
         criminal1.Income = 99999;
         Console.WriteLine(criminal1.Income);
-        
+        */
         //============================================
         
+        //enums
+        Console.WriteLine(Profession.Archer + " is our backline");
+        Console.WriteLine(Profession.Bard + " is our leader and he joined the team as " + (int)Profession.Bard);
         
+        String charClass = ProfessionLevel.Berserker.ToString();
+        int level = (int)ProfessionLevel.Berserker;
+        Console.WriteLine("Character class: " + charClass + " Current level: " + level);
     }
 }
