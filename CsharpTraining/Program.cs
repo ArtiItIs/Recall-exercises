@@ -166,6 +166,7 @@ class Program
         //============================================
         
         //polymorphism
+        /*
         Dog doggo = new Dog();
         Snake bigBoss = new Snake();
         Bird birb = new Bird();
@@ -176,5 +177,16 @@ class Program
         {
             animal.Speak();
         }
+        */
+        //============================================
+        
+        //interface (a methods blueprint for inheriting classes)
+        Worker worker = new Worker();
+        worker.Work();
+        Criminal criminal = new Criminal();
+        criminal.Rob();
+        RobinHood robinHood = new RobinHood();
+        robinHood.Rob();
+        robinHood.Work();
     }
 }
