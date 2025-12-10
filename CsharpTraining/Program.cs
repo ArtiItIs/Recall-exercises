@@ -99,6 +99,8 @@ class Program
         //Computer laptop = new Computer("RTX 3050ti", "i9-9000", 16, "Windows 11");
         
         //inheritance
+        
+        /*
         Dog dog = new Dog();
         Bird bird = new Bird();
         Snake snake = new Snake();
@@ -109,5 +111,6 @@ class Program
         bird.Move();
         Console.WriteLine("I have " + snake.numberOfLegs  + " legs");
         snake.Move();
+        */
     }
 }

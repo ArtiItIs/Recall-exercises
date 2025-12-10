@@ -1,6 +1,6 @@
 namespace CsharpTraining;
 
-public class Animal
+public abstract class Animal
 {
     //public int numberOfLegs;
 
