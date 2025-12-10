@@ -112,5 +112,32 @@ class Program
         Console.WriteLine("I have " + snake.numberOfLegs  + " legs");
         snake.Move();
         */
+        
+        //array of objects
+
+        Person[] classroom = new Person[5];
+
+        Person person1 = new Person("Chris", 15);
+        Person person2 = new Person("Annie", 19);
+        Person person3 = new Person("Jane", 17);
+        Person person4 = new Person("Nicole", 18);
+        Person person5 = new Person("Brian", 18);
+
+        classroom[0] = person1;
+        classroom[1] = person2;
+        classroom[2] = person3;
+        classroom[3] = person4;
+        classroom[4] = person5;
+
+        foreach (Person person in classroom)
+        {
+            Console.WriteLine(person.personName);
+        }
+        
+        person1.ChangeAge(20);
+        
+        Person person6 = Person.Clone(person5);
+
+        Console.WriteLine(person6.personName +  " is a clone!");
     }
 }

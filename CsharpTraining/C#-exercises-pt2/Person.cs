@@ -28,4 +28,16 @@ public class Person
     {
         Console.WriteLine(personName + " will never stop!");
     }
+
+    //this one should be a setter
+    public void ChangeAge(int newAge)
+    {
+        personAge = newAge;
+        Console.WriteLine(personName + " is now " + newAge +  " years old!");
+    }
+
+    public static Person Clone(Person person)
+    {
+        return new  Person(person.personName, person.personAge);
+    }
 }
