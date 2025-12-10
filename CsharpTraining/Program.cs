@@ -181,6 +181,7 @@ class Program
         //============================================
         
         //interface (a methods blueprint for inheriting classes)
+        /*
         Worker worker = new Worker();
         worker.Work();
         Criminal criminal = new Criminal();
@@ -188,5 +189,39 @@ class Program
         RobinHood robinHood = new RobinHood();
         robinHood.Rob();
         robinHood.Work();
+        */
+        //============================================
+        
+        //lists!!!
+        List<String> colours = new List<string>();
+        
+        colours.Add("red");
+        colours.Add("yellow");
+        colours.Add("green");
+        colours.Add("blue");
+        
+        colours.Insert(0, "purple");
+        colours.Remove("red");
+        colours.RemoveAt(colours.Count - 1);
+        
+        String[] coloursArray = colours.ToArray(); //create an array of items from the list
+        
+        //colours.Sort();
+        //colours.Reverse();
+        //colours.Clear();
+        foreach (String colour in colours)
+        {
+            Console.WriteLine(colour);
+        }
+
+        Console.WriteLine("I counted " + colours.Count +  " colours");
+        Console.WriteLine("Yellow is on " +  colours.IndexOf("yellow") + " index");
+        
+        colours.Add("yellow");
+        Console.WriteLine("Last index of yellow is index " + colours.LastIndexOf("yellow"));
+        Console.WriteLine(colours.Contains("red")); //returns bool after searching for asked colour (true/false)
+
+        
+        
     }
 }
