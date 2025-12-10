@@ -254,11 +254,45 @@ class Program
         //============================================
         
         //enums
+        /*
         Console.WriteLine(Profession.Archer + " is our backline");
         Console.WriteLine(Profession.Bard + " is our leader and he joined the team as " + (int)Profession.Bard);
         
         String charClass = ProfessionLevel.Berserker.ToString();
         int level = (int)ProfessionLevel.Berserker;
         Console.WriteLine("Character class: " + charClass + " Current level: " + level);
+        */
+        //============================================
+        
+        //dictionary ->     Dictionary<TKey, TValue> name = new();
+
+        Dictionary<String, String> configuration = new();
+        
+        configuration.Add("Theme", "Dark");
+        configuration.Add("Brightness", "80");
+        configuration.Add("Version", "1.0.2");
+        //configuration.Add("Driver", "1.42");
+        
+        Console.WriteLine(configuration["Theme"]);
+
+        if (configuration.ContainsKey("Driver"))
+        {
+            Console.WriteLine(configuration["Driver"]);
+        }
+
+        Dictionary<String, List<String>> prezents = new();
+        
+        prezents.Add("Girlfriend", new List<string>{"Chocolates", "Flowers", "Perfumes"});
+        prezents.Add("Mom", new List<string>{"Music album", "Spa voucher", "Pillow"});
+        prezents.Add("Grandma", new List<string>{"Sweater", "Cookies", "Flowers"});
+
+        foreach (var (key, value) in prezents)
+        {
+            Console.WriteLine(key + "'s prezents:");
+            foreach (var prezent in value)
+            {
+                Console.WriteLine(prezent);
+            }
+        }
     }
 }
