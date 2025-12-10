@@ -13,4 +13,9 @@ public abstract class Animal
         Console.WriteLine("Catch me!");
     }
     */
+
+    public virtual void Speak()
+    {
+        Console.WriteLine("Animal speaking");
+    }
 }

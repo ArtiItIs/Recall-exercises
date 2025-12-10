@@ -8,4 +8,9 @@ public class Bird : Animal
     {
         Console.WriteLine("I'm a bird and I can fly");
     }
+
+    public override void Speak()
+    {
+        Console.WriteLine("Bird is chirping");
+    }
 }

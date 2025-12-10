@@ -157,9 +157,24 @@ class Program
         //============================================
         
         //ToString method override
+        /*
         Person person7 = new Person("Adrian", 30);
 
         Console.WriteLine(person7.ToString());
         Console.WriteLine(person7); //this will automatically call ToString method without having to call it
+        */
+        //============================================
+        
+        //polymorphism
+        Dog doggo = new Dog();
+        Snake bigBoss = new Snake();
+        Bird birb = new Bird();
+
+        Animal[] animals = { doggo, bigBoss, birb };
+
+        foreach (Animal animal in animals)
+        {
+            animal.Speak();
+        }
     }
 }

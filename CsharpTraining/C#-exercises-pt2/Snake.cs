@@ -8,4 +8,9 @@ public class Snake : Animal
     {
         Console.WriteLine("I'm a snake and I'm not that fast");
     }
+
+    public override void Speak()
+    {
+        Console.WriteLine("Snake is hissing");
+    }
 }
