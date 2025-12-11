@@ -1,4 +1,6 @@
-﻿namespace CsharpTraining;
+﻿using CsharpTraining.C__algorythms;
+
+namespace CsharpTraining;
 
 class Program
 {
@@ -265,7 +267,7 @@ class Program
         //============================================
         
         //dictionary ->     Dictionary<TKey, TValue> name = new();
-
+        /*
         Dictionary<String, String> configuration = new();
         
         configuration.Add("Theme", "Dark");
@@ -294,5 +296,28 @@ class Program
                 Console.WriteLine(prezent);
             }
         }
+        */
+        
+        //Recursion!!!
+        
+        Console.WriteLine("Counting down from provided number");
+        int countdownNumber = 6;
+        Recursion.Countdown(countdownNumber);
+        
+        Console.WriteLine("\nDisplaying every element of an array");
+        int[] arr = { 5, 12, 8, 1, 13, 22 };
+        Recursion.ShowArrayVal(arr, 0);
+        
+        Console.WriteLine("\nDisplaying every element of a list");
+        List<String> list = new List<String>()
+        {
+            "Harry", "Hermione", "Ron", "Hagrid"
+        };
+        Recursion.ShowListVal(list, 0);
+        
+        Console.WriteLine("\nShowing factorial of provided number");
+        int factX = 9;
+        Console.WriteLine($"The factorial number of {factX} is {Recursion.Factorial(factX)}");
+        
     }
 }
